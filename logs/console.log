@@ -385,3 +385,16 @@
 2025-07-20 19:24:12.981 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 1.984 seconds (process running for 2.492)
 2025-07-20 19:24:20.098 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
 2025-07-20 19:24:20.109 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-20 19:24:23.009 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 11184 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-20 19:24:23.009 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-20 19:24:23.342 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
+2025-07-20 19:24:23.499 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-20 19:24:23.506 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-20 19:24:23.508 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-20 19:24:23.508 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-20 19:24:23.540 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-20 19:24:23.540 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 507 ms
+2025-07-20 19:24:23.786 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-20 19:24:23.796 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-20 19:24:24.389 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-20 19:24:24.399 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 1.737 seconds (process running for 2.147)

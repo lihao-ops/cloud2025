@@ -1,0 +1,20 @@
+2025-07-20 19:27:55.231 [main] INFO  com.hli.order.DiscoveryTest - Starting DiscoveryTest using Java 21.0.6 with PID 22152 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-07-20 19:27:55.232 [main] INFO  com.hli.order.DiscoveryTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-20 19:27:55.843 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f91cf2b9-5de2-38c3-94bc-b0c4eb0fbf03
+2025-07-20 19:27:56.441 [main] INFO  com.hli.order.DiscoveryTest - Started DiscoveryTest in 1.616 seconds (process running for 2.496)
+2025-07-20 19:49:46.242 [main] INFO  com.hli.order.DiscoveryTest - Starting DiscoveryTest using Java 21.0.6 with PID 7816 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-07-20 19:49:46.245 [main] INFO  com.hli.order.DiscoveryTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-20 19:49:46.850 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f91cf2b9-5de2-38c3-94bc-b0c4eb0fbf03
+2025-07-20 19:49:47.418 [main] INFO  com.hli.order.DiscoveryTest - Started DiscoveryTest in 1.584 seconds (process running for 2.532)
+2025-07-20 19:55:10.449 [main] INFO  com.hli.order.DiscoveryTest - Starting DiscoveryTest using Java 21.0.6 with PID 17952 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-07-20 19:55:10.449 [main] INFO  com.hli.order.DiscoveryTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-20 19:55:11.014 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f91cf2b9-5de2-38c3-94bc-b0c4eb0fbf03
+2025-07-20 19:55:11.554 [main] INFO  com.hli.order.DiscoveryTest - Started DiscoveryTest in 1.505 seconds (process running for 2.397)
+2025-07-20 19:56:03.399 [main] INFO  com.hli.order.DiscoveryTest - Starting DiscoveryTest using Java 21.0.6 with PID 29592 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-07-20 19:56:03.400 [main] INFO  com.hli.order.DiscoveryTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-20 19:56:03.909 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f91cf2b9-5de2-38c3-94bc-b0c4eb0fbf03
+2025-07-20 19:56:04.374 [main] INFO  com.hli.order.DiscoveryTest - Started DiscoveryTest in 1.366 seconds (process running for 2.268)
+2025-07-20 19:56:27.924 [main] INFO  com.hli.order.DiscoveryTest - Starting DiscoveryTest using Java 21.0.6 with PID 29540 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-07-20 19:56:27.925 [main] INFO  com.hli.order.DiscoveryTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-20 19:56:28.483 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f91cf2b9-5de2-38c3-94bc-b0c4eb0fbf03
+2025-07-20 19:56:29.045 [main] INFO  com.hli.order.DiscoveryTest - Started DiscoveryTest in 1.555 seconds (process running for 2.446)

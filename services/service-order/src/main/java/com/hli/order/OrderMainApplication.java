@@ -2,6 +2,7 @@ package com.hli.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Date 2025-06-29 15:27:53
  * @description: 订单服务启动类
  */
+@EnableDiscoveryClient//开启服务发现功能
 @RestController
 @SpringBootApplication
 public class OrderMainApplication {

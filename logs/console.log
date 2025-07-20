@@ -1,0 +1,20 @@
+2025-07-20 17:05:38.275 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 7772 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-20 17:05:38.277 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-20 17:05:39.054 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
+2025-07-20 17:05:39.346 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-20 17:05:39.359 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-20 17:05:39.360 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-20 17:05:39.361 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-20 17:05:39.421 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-20 17:05:39.422 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1072 ms
+2025-07-20 17:05:40.778 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-20 17:05:41.895 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-20 17:05:42.033 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-20 17:05:42.056 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-07-20 17:05:44.004 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-07-20 17:05:45.017 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-20 17:05:45.031 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 8.651 seconds (process running for 9.802)
+2025-07-20 17:05:53.687 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-20 17:05:53.705 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-20 17:06:03.721 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-20 17:06:03.737 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete

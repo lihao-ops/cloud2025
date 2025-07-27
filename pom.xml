@@ -19,6 +19,7 @@
     <description>Spring Cloud 2025 Demo 工程</description>
     <modules>
         <module>services</module>
+        <module>model</module>
     </modules>
 
     <properties>

@@ -1,400 +1,313 @@
-2025-07-20 17:05:38.275 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 7772 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 17:05:38.277 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 17:05:39.054 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 17:05:39.346 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
-2025-07-20 17:05:39.359 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
-2025-07-20 17:05:39.360 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 17:05:39.361 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 17:05:39.421 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 17:05:39.422 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1072 ms
-2025-07-20 17:05:40.778 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-20 17:05:41.895 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-20 17:05:42.033 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
-2025-07-20 17:05:42.056 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
-2025-07-20 17:05:44.004 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
-2025-07-20 17:05:45.017 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-20 17:05:45.031 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 8.651 seconds (process running for 9.802)
-2025-07-20 17:05:53.687 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 17:05:53.705 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 17:06:03.721 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-20 17:06:03.737 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-07-20 17:06:08.100 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 17044 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 17:06:08.101 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 17:06:08.737 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 17:06:09.021 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
-2025-07-20 17:06:09.036 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
-2025-07-20 17:06:09.038 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 17:06:09.038 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 17:06:09.094 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 17:06:09.094 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 943 ms
-2025-07-20 17:06:10.426 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-20 17:06:11.544 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-20 17:06:11.602 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
-2025-07-20 17:06:11.622 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
-2025-07-20 17:06:12.499 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
-2025-07-20 17:06:13.511 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-20 17:06:13.523 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 7.244 seconds (process running for 8.6)
-2025-07-20 17:27:27.731 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 11660 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 17:27:27.731 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 17:27:28.408 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 17:27:28.647 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
-2025-07-20 17:27:28.658 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
-2025-07-20 17:27:28.660 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 17:27:28.660 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 17:27:28.713 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 17:27:28.713 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 918 ms
-2025-07-20 17:27:29.149 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
-2025-07-20 17:27:29.169 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
-2025-07-20 17:27:30.133 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:8201 register finished
-2025-07-20 17:27:30.146 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 3.199 seconds (process running for 4.199)
-2025-07-20 17:43:11.355 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 17:43:11.365 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 17:43:12.701 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 17:43:12.707 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 17:43:22.923 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 1584 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 17:43:22.924 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 17:43:23.675 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 17:43:23.985 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
-2025-07-20 17:43:23.998 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
-2025-07-20 17:43:23.999 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 17:43:24.000 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 17:43:24.061 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 17:43:24.061 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1071 ms
-2025-07-20 17:43:24.585 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
-2025-07-20 17:43:24.611 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
-2025-07-20 17:43:25.624 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
-2025-07-20 17:43:25.647 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 3.54 seconds (process running for 4.492)
-2025-07-20 17:43:25.825 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 6896 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 17:43:25.827 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 17:43:26.535 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 17:43:26.765 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
-2025-07-20 17:43:26.775 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
-2025-07-20 17:43:26.776 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 17:43:26.777 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 17:43:26.819 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 17:43:26.820 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 934 ms
-2025-07-20 17:43:27.180 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
-2025-07-20 17:43:27.193 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
-2025-07-20 17:43:27.961 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:8201 register finished
-2025-07-20 17:43:27.978 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 2.875 seconds (process running for 3.764)
-2025-07-20 17:44:16.765 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 17:44:16.767 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 17:44:16.772 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 17:44:16.773 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 17:44:25.131 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 17432 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 17:44:25.133 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 17:44:25.906 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 17:44:26.336 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
-2025-07-20 17:44:26.359 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
-2025-07-20 17:44:26.362 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 17:44:26.362 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 17:44:26.439 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 17:44:26.440 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1249 ms
-2025-07-20 17:44:27.147 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
-2025-07-20 17:44:27.172 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
-2025-07-20 17:44:27.881 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 9084 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 17:44:27.883 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 17:44:28.429 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
-2025-07-20 17:44:28.449 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 4.134 seconds (process running for 5.189)
-2025-07-20 17:44:28.683 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 17:44:28.990 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
-2025-07-20 17:44:29.004 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
-2025-07-20 17:44:29.006 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 17:44:29.006 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 17:44:29.071 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 17:44:29.071 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1114 ms
-2025-07-20 17:44:29.588 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
-2025-07-20 17:44:29.610 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
-2025-07-20 17:44:30.438 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:8201 register finished
-2025-07-20 17:44:30.451 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 3.438 seconds (process running for 4.804)
-2025-07-20 18:05:25.331 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 14704 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 18:05:25.333 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 18:05:26.231 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 18:05:26.590 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
-2025-07-20 18:05:26.604 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
-2025-07-20 18:05:26.606 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 18:05:26.606 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 18:05:26.671 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 18:05:26.673 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1266 ms
-2025-07-20 18:05:27.273 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
-2025-07-20 18:05:27.301 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
-2025-07-20 18:05:28.459 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
-2025-07-20 18:05:28.477 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 4.182 seconds (process running for 5.68)
-2025-07-20 18:05:36.289 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 30596 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 18:05:36.290 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 18:05:37.177 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 18:05:37.505 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9200 (http)
-2025-07-20 18:05:37.521 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9200"]
-2025-07-20 18:05:37.523 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 18:05:37.523 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 18:05:37.591 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 18:05:37.592 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1224 ms
-2025-07-20 18:05:38.169 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9200"]
-2025-07-20 18:05:38.195 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9200 (http) with context path '/'
-2025-07-20 18:05:39.369 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:9200 register finished
-2025-07-20 18:05:39.390 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 4.26 seconds (process running for 5.803)
-2025-07-20 18:06:17.977 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 20200 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 18:06:17.978 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 18:06:18.979 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 18:06:19.390 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7200 (http)
-2025-07-20 18:06:19.407 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7200"]
-2025-07-20 18:06:19.411 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 18:06:19.411 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 18:06:19.513 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 18:06:19.514 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1463 ms
-2025-07-20 18:06:20.252 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7200"]
-2025-07-20 18:06:20.278 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7200 (http) with context path '/'
-2025-07-20 18:06:21.559 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 23580 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 18:06:21.562 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 18:06:21.697 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:7200 register finished
-2025-07-20 18:06:21.721 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 4.671 seconds (process running for 5.818)
-2025-07-20 18:06:22.447 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 18:06:22.782 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
-2025-07-20 18:06:22.796 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
-2025-07-20 18:06:22.798 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 18:06:22.798 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 18:06:22.865 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 18:06:22.865 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1211 ms
-2025-07-20 18:06:23.414 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
-2025-07-20 18:06:23.430 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
-2025-07-20 18:06:24.435 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
-2025-07-20 18:06:24.452 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 3.975 seconds (process running for 5.137)
-2025-07-20 19:17:47.035 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:17:47.037 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:17:47.040 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:17:47.040 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:17:47.042 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:17:47.044 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:17:47.046 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:17:47.046 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:17:47.051 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:17:47.052 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:20:40.893 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 29348 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:20:40.894 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:20:41.255 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 19:20:41.405 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
-2025-07-20 19:20:41.413 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:20:41.414 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:20:41.414 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:20:41.449 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:20:41.449 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 530 ms
-2025-07-20 19:20:42.050 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:20:42.155 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
-2025-07-20 19:20:43.288 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
-2025-07-20 19:20:43.299 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 2.765 seconds (process running for 3.189)
-2025-07-20 19:20:43.613 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 7792 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:20:43.614 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:20:43.972 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 19:20:44.119 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7200 (http)
-2025-07-20 19:20:44.127 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:20:44.128 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:20:44.128 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:20:44.162 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:20:44.163 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 521 ms
-2025-07-20 19:20:44.420 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:20:44.430 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7200 (http) with context path '/'
-2025-07-20 19:20:45.018 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:7200 register finished
-2025-07-20 19:20:45.028 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 1.787 seconds (process running for 2.231)
-2025-07-20 19:21:05.756 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:21:05.761 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:21:08.940 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 13584 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:21:08.940 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:21:09.390 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 19:21:09.574 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7200 (http)
-2025-07-20 19:21:09.585 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:21:09.586 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:21:09.587 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:21:09.627 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:21:09.627 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 653 ms
-2025-07-20 19:21:09.933 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:21:09.948 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7200 (http) with context path '/'
-2025-07-20 19:21:10.115 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 26596 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:21:10.116 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:21:10.509 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 19:21:10.640 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:7200 register finished
-2025-07-20 19:21:10.651 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 2.151 seconds (process running for 2.696)
-2025-07-20 19:21:10.674 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
-2025-07-20 19:21:10.682 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:21:10.683 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:21:10.683 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:21:10.720 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:21:10.720 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 576 ms
-2025-07-20 19:21:11.001 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:21:11.013 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
-2025-07-20 19:21:11.661 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
-2025-07-20 19:21:11.672 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 1.968 seconds (process running for 2.546)
-2025-07-20 19:21:23.448 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:21:23.452 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:21:25.093 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:21:25.102 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:21:26.313 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 12588 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:21:26.314 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:21:26.670 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 19:21:26.813 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7200 (http)
-2025-07-20 19:21:26.821 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:21:26.821 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:21:26.822 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:21:26.857 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:21:26.857 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 516 ms
-2025-07-20 19:21:27.117 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:21:27.127 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7200 (http) with context path '/'
-2025-07-20 19:21:27.718 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:7200 register finished
-2025-07-20 19:21:27.728 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 1.788 seconds (process running for 2.215)
-2025-07-20 19:21:35.111 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-20 19:21:35.118 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-07-20 19:21:36.785 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 15108 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:21:36.786 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:21:37.113 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 19:21:37.268 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
-2025-07-20 19:21:37.275 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:21:37.276 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:21:37.276 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:21:37.308 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:21:37.308 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 497 ms
-2025-07-20 19:21:37.552 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:21:37.561 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
-2025-07-20 19:21:38.168 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
-2025-07-20 19:21:38.178 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 1.746 seconds (process running for 2.167)
-2025-07-20 19:21:47.984 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:21:47.991 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:21:48.826 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:21:48.831 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:21:55.625 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 4184 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:21:55.625 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:21:55.994 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 19:21:56.155 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7200 (http)
-2025-07-20 19:21:56.163 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:21:56.165 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:21:56.165 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:21:56.201 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:21:56.201 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 549 ms
-2025-07-20 19:21:56.482 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:21:56.493 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7200 (http) with context path '/'
-2025-07-20 19:21:56.733 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 23920 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:21:56.733 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:21:57.083 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 19:21:57.100 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:7200 register finished
-2025-07-20 19:21:57.111 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 1.842 seconds (process running for 2.259)
-2025-07-20 19:21:57.234 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
-2025-07-20 19:21:57.241 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:21:57.242 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:21:57.243 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:21:57.276 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:21:57.276 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 516 ms
-2025-07-20 19:21:57.515 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:21:57.525 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
-2025-07-20 19:21:58.100 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
-2025-07-20 19:21:58.110 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 1.738 seconds (process running for 2.159)
-2025-07-20 19:22:07.712 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:22:07.716 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:22:17.722 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-20 19:22:17.729 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-07-20 19:22:19.283 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 28920 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:22:19.283 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:22:19.672 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 19:22:19.828 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7200 (http)
-2025-07-20 19:22:19.836 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:22:19.837 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:22:19.837 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:22:19.871 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:22:19.871 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 560 ms
-2025-07-20 19:22:20.139 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:22:20.148 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7200 (http) with context path '/'
-2025-07-20 19:22:20.743 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:7200 register finished
-2025-07-20 19:22:20.754 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 1.839 seconds (process running for 2.276)
-2025-07-20 19:22:36.937 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:22:36.942 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:22:46.958 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-20 19:22:46.968 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-07-20 19:22:48.707 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:22:48.712 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:22:49.873 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 29760 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:22:49.874 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:22:50.224 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 19:22:50.373 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7200 (http)
-2025-07-20 19:22:50.381 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:22:50.382 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:22:50.382 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:22:50.417 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:22:50.417 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 516 ms
-2025-07-20 19:22:50.673 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:22:50.684 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7200 (http) with context path '/'
-2025-07-20 19:22:51.286 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:7200 register finished
-2025-07-20 19:22:51.297 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 1.785 seconds (process running for 2.194)
-2025-07-20 19:22:58.732 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-20 19:22:58.742 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-07-20 19:23:00.287 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 9324 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:23:00.288 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:23:00.636 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 19:23:00.776 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
-2025-07-20 19:23:00.783 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:23:00.784 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:23:00.784 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:23:00.818 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:23:00.818 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 503 ms
-2025-07-20 19:23:01.135 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:23:01.145 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
-2025-07-20 19:23:01.761 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
-2025-07-20 19:23:01.774 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 1.864 seconds (process running for 2.281)
-2025-07-20 19:23:02.495 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:23:02.496 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:23:02.499 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:23:02.500 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:23:14.016 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 29908 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:23:14.017 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:23:14.382 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 19:23:14.547 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
-2025-07-20 19:23:14.555 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:23:14.556 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:23:14.557 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:23:14.591 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:23:14.592 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 549 ms
-2025-07-20 19:23:14.867 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:23:14.879 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
-2025-07-20 19:23:15.165 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 24072 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:23:15.166 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:23:15.474 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
-2025-07-20 19:23:15.485 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 1.822 seconds (process running for 2.238)
-2025-07-20 19:23:15.521 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 19:23:15.657 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7200 (http)
-2025-07-20 19:23:15.665 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:23:15.666 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:23:15.666 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:23:15.699 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:23:15.699 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 506 ms
-2025-07-20 19:23:15.949 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:23:15.962 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7200 (http) with context path '/'
-2025-07-20 19:23:16.543 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:7200 register finished
-2025-07-20 19:23:16.552 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 1.767 seconds (process running for 2.199)
-2025-07-20 19:24:08.471 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:24:08.478 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:24:10.084 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
-2025-07-20 19:24:10.089 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
-2025-07-20 19:24:11.407 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 21612 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:24:11.407 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:24:11.801 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=25b4fa67-d3e1-3705-8f5a-36baf6e57a43
-2025-07-20 19:24:11.965 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7200 (http)
-2025-07-20 19:24:11.974 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:24:11.975 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:24:11.975 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:24:12.014 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:24:12.014 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 577 ms
-2025-07-20 19:24:12.295 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7200"]
-2025-07-20 19:24:12.307 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7200 (http) with context path '/'
-2025-07-20 19:24:12.970 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:7200 register finished
-2025-07-20 19:24:12.981 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 1.984 seconds (process running for 2.492)
-2025-07-20 19:24:20.098 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-20 19:24:20.109 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-07-20 19:24:23.009 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 11184 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
-2025-07-20 19:24:23.009 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
-2025-07-20 19:24:23.342 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4dbe12c4-7feb-38b1-9991-c9c9db298603
-2025-07-20 19:24:23.499 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
-2025-07-20 19:24:23.506 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:24:23.508 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-07-20 19:24:23.508 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20 19:24:23.540 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-07-20 19:24:23.540 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 507 ms
-2025-07-20 19:24:23.786 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
-2025-07-20 19:24:23.796 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
-2025-07-20 19:24:24.389 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
-2025-07-20 19:24:24.399 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 1.737 seconds (process running for 2.147)
+2025-07-27 19:01:31.903 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 11284 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:01:31.905 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:01:32.386 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 19:01:32.572 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 19:01:32.583 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:01:32.584 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:01:32.584 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:01:32.632 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:01:32.633 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 693 ms
+2025-07-27 19:01:33.872 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:01:34.946 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:01:34.983 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:01:34.995 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 19:01:36.029 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:01:36.048 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-27 19:02:40.967 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 14676 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:02:40.968 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:02:41.375 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 19:02:41.540 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 19:02:41.549 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:02:41.550 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:02:41.550 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:02:41.592 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:02:41.593 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms
+2025-07-27 19:02:42.824 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:02:43.877 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:02:43.915 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:02:43.928 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 19:02:45.375 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-27 19:02:46.393 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:02:46.401 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 6.882 seconds (process running for 7.467)
+2025-07-27 19:04:04.362 [http-nio-9201-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 19:04:04.363 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 19:04:04.363 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-27 19:04:33.868 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:04:33.882 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:04:43.549 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 27520 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:04:43.550 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:04:43.961 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 19:04:44.125 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 19:04:44.133 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:04:44.134 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:04:44.134 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:04:44.172 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:04:44.172 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 593 ms
+2025-07-27 19:04:45.381 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:04:46.438 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:04:46.470 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:04:46.482 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 19:04:47.149 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-27 19:04:48.157 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:04:48.161 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 6.04 seconds (process running for 6.61)
+2025-07-27 19:04:51.343 [http-nio-9201-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 19:04:51.343 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 19:04:51.344 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-27 19:16:14.573 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 27284 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:16:14.573 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:16:14.969 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=dc200041-162f-32d1-90e4-d07c69d4c75e
+2025-07-27 19:16:15.123 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-27 19:16:15.131 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:16:15.132 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:16:15.133 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:16:15.168 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:16:15.169 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 566 ms
+2025-07-27 19:16:16.368 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:16:17.428 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:16:17.461 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:16:17.473 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-07-27 19:16:18.128 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-07-27 19:16:19.145 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:16:19.151 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 5.99 seconds (process running for 7.756)
+2025-07-27 19:17:35.693 [http-nio-8200-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 19:17:35.693 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 19:17:35.694 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-27 19:37:39.871 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:37:39.879 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:37:49.887 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-27 19:37:49.894 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-27 19:37:57.478 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 12056 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:37:57.479 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:37:57.974 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0ad69011-6046-32a2-acc2-6463642529a4
+2025-07-27 19:37:58.159 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-27 19:37:58.168 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:37:58.170 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:37:58.170 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:37:58.212 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:37:58.212 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 702 ms
+2025-07-27 19:37:59.300 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:38:00.318 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:38:00.536 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:38:00.548 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-07-27 19:38:01.567 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:38:02.122 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:38:02.128 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:38:02.276 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-07-27 19:38:02.281 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 6.256 seconds (process running for 7.036)
+2025-07-27 19:38:12.683 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 23096 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:38:12.684 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:38:13.074 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 19:38:13.244 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 19:38:13.253 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:38:13.254 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:38:13.254 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:38:13.295 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:38:13.296 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 583 ms
+2025-07-27 19:38:14.527 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:38:15.587 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:38:15.624 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:38:15.637 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 19:38:16.337 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-27 19:38:17.355 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:38:17.363 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 6.117 seconds (process running for 6.701)
+2025-07-27 19:39:55.742 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:39:55.743 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:39:55.748 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:39:55.748 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:40:08.692 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 9076 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:40:08.693 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:40:09.128 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0ad69011-6046-32a2-acc2-6463642529a4
+2025-07-27 19:40:09.276 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-27 19:40:09.283 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:40:09.284 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:40:09.284 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:40:09.328 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:40:09.328 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 602 ms
+2025-07-27 19:40:09.861 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 28052 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:40:09.862 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:40:10.246 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 19:40:10.393 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:40:10.398 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 19:40:10.406 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:40:10.408 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:40:10.408 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:40:10.443 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:40:10.443 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 553 ms
+2025-07-27 19:40:11.414 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:40:11.612 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:40:11.623 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-07-27 19:40:11.650 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:40:12.629 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:40:12.707 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:40:12.738 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:40:12.748 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 19:40:13.292 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-07-27 19:40:13.297 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 6.063 seconds (process running for 6.544)
+2025-07-27 19:40:13.417 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-27 19:40:14.435 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:40:14.441 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 6.003 seconds (process running for 6.48)
+2025-07-27 19:40:28.233 [http-nio-9201-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 19:40:28.233 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 19:40:28.233 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-27 19:40:45.245 [http-nio-8200-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 19:40:45.245 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 19:40:45.245 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-27 19:40:45.315 [http-nio-8200-exec-1] INFO  c.h.o.service.impl.OrderServiceImpl - getProductFromRemote_url=http://192.168.6.1:9201/product/2
+2025-07-27 19:41:33.669 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:41:33.673 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:41:33.676 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:41:33.677 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:41:42.949 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 16732 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:41:42.949 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:41:43.342 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 19:41:43.512 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 19:41:43.519 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:41:43.521 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:41:43.522 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:41:43.559 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:41:43.559 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 572 ms
+2025-07-27 19:41:44.252 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 24748 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:41:44.253 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:41:44.694 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0ad69011-6046-32a2-acc2-6463642529a4
+2025-07-27 19:41:44.736 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:41:44.847 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-27 19:41:44.854 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:41:44.855 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:41:44.855 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:41:44.892 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:41:44.892 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 608 ms
+2025-07-27 19:41:45.793 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:41:45.831 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:41:45.840 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 19:41:45.970 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:41:46.454 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-27 19:41:46.986 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:41:47.175 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:41:47.186 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-07-27 19:41:47.467 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:41:47.471 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 5.958 seconds (process running for 6.411)
+2025-07-27 19:41:48.207 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:41:48.849 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-07-27 19:41:48.855 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 6.039 seconds (process running for 6.53)
+2025-07-27 19:41:53.792 [http-nio-8200-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 19:41:53.792 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 19:41:53.792 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-27 19:41:53.840 [http-nio-8200-exec-1] INFO  c.h.o.service.impl.OrderServiceImpl - getProductFromRemote_url=http://192.168.6.1:9201/product/2
+2025-07-27 19:41:53.903 [http-nio-9201-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 19:41:53.903 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 19:41:53.904 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-27 19:46:28.549 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:46:28.550 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:46:28.555 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:46:28.555 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:46:38.572 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-27 19:46:38.572 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-27 19:46:38.579 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-27 19:46:38.579 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-27 19:46:42.985 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 8944 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:46:42.985 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:46:43.420 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 19:46:43.631 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 19:46:43.642 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:46:43.644 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:46:43.645 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:46:43.695 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:46:43.695 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 681 ms
+2025-07-27 19:46:44.941 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:45.488 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 18920 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:46:45.489 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:46:45.966 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0ad69011-6046-32a2-acc2-6463642529a4
+2025-07-27 19:46:45.997 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:46.044 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:46:46.061 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 19:46:46.172 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-27 19:46:46.182 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:46:46.183 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:46:46.183 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:46:46.229 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:46:46.229 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 711 ms
+2025-07-27 19:46:46.671 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 28248 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:46:46.672 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:46:46.824 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-27 19:46:47.093 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 19:46:47.241 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 19:46:47.248 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:46:47.249 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:46:47.250 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:46:47.283 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:46:47.284 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 572 ms
+2025-07-27 19:46:47.327 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:47.841 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:47.847 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 6.291 seconds (process running for 6.76)
+2025-07-27 19:46:47.939 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 23648 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:46:47.940 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:46:48.354 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:48.390 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0ad69011-6046-32a2-acc2-6463642529a4
+2025-07-27 19:46:48.463 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:48.558 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-27 19:46:48.563 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:46:48.566 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:46:48.568 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:46:48.568 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:46:48.574 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-07-27 19:46:48.605 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:46:48.605 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 634 ms
+2025-07-27 19:46:49.524 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:49.559 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:46:49.571 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-27 19:46:49.587 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:49.680 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:50.267 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-07-27 19:46:50.272 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 6.227 seconds (process running for 6.771)
+2025-07-27 19:46:50.693 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:46:50.883 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:46:50.895 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-27 19:46:55.495 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:46:55.496 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 19:46:55.500 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:46:55.501 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 19:47:06.066 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 27764 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:47:06.066 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:47:06.596 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=0ad69011-6046-32a2-acc2-6463642529a4
+2025-07-27 19:47:06.744 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-27 19:47:06.752 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:47:06.753 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:47:06.754 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:47:06.793 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:47:06.793 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 692 ms
+2025-07-27 19:47:07.741 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 6592 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 19:47:07.742 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 19:47:07.862 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:47:08.146 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 19:47:08.307 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 19:47:08.314 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:47:08.315 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 19:47:08.315 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 19:47:08.359 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 19:47:08.360 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 587 ms
+2025-07-27 19:47:08.882 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:47:09.069 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-27 19:47:09.079 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-07-27 19:47:09.550 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:47:10.086 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:47:10.617 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:47:10.657 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 19:47:10.669 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 19:47:10.753 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-07-27 19:47:10.758 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 6.115 seconds (process running for 6.573)
+2025-07-27 19:47:11.331 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-27 19:47:12.350 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 19:47:12.359 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 6.052 seconds (process running for 6.566)
+2025-07-27 19:47:24.089 [http-nio-8200-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 19:47:24.089 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 19:47:24.090 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-27 19:47:24.132 [http-nio-8200-exec-1] INFO  c.h.o.service.impl.OrderServiceImpl - getProductFromRemote_url=http://192.168.6.1:9201/product/2
+2025-07-27 19:47:24.181 [http-nio-9201-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 19:47:24.181 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 19:47:24.182 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

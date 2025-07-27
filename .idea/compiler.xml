@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="service-order" />
         <module name="service-product" />
+        <module name="model" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud2025" options="-parameters" />
+      <module name="model" options="-parameters" />
       <module name="service-order" options="-parameters" />
       <module name="service-product" options="-parameters" />
       <module name="services" options="-parameters" />

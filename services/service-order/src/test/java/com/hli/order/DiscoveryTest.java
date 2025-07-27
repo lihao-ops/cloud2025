@@ -23,7 +23,7 @@ public class DiscoveryTest {
     private NacosServiceDiscovery nacosServiceDiscovery;
 
     @Test
-    void discoveryClientTest() throws NacosException {
+    void discoveryClientTest() {
         // 获取所有已注册服务名称
         for (String service : discoveryClient.getServices()) {
             System.out.println(service);

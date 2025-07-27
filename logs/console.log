@@ -311,3 +311,78 @@ Error starting ApplicationContext. To display the condition evaluation report re
 2025-07-27 19:47:24.181 [http-nio-9201-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-07-27 19:47:24.181 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2025-07-27 19:47:24.182 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-27 20:56:23.887 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 28064 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 20:56:23.888 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 20:56:24.379 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f56c2e25-a268-355f-b060-7f142ad5ac29
+2025-07-27 20:56:24.542 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-27 20:56:24.552 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-27 20:56:24.553 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 20:56:24.554 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 20:56:24.593 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 20:56:24.594 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 671 ms
+2025-07-27 20:56:25.045 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 23532 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 20:56:25.046 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 20:56:25.418 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 20:56:25.566 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 20:56:25.574 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 20:56:25.575 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 20:56:25.576 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 20:56:25.612 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 20:56:25.613 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 542 ms
+2025-07-27 20:56:25.671 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:56:26.693 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:56:26.803 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:56:26.997 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-27 20:56:27.008 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-07-27 20:56:27.860 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:56:27.892 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 20:56:27.903 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 20:56:28.017 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:56:28.554 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-27 20:56:28.667 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-07-27 20:56:28.671 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 6.233 seconds (process running for 6.748)
+2025-07-27 20:56:29.563 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:56:29.568 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 5.942 seconds (process running for 6.43)
+2025-07-27 20:57:00.547 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 20:57:00.551 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-07-27 20:57:00.555 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 20:57:00.558 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-07-27 20:57:13.283 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 29708 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 20:57:13.284 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 20:57:13.693 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c95afa4b-838c-368f-800e-d00dc29660b1
+2025-07-27 20:57:13.846 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9201 (http)
+2025-07-27 20:57:13.855 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9201"]
+2025-07-27 20:57:13.856 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 20:57:13.856 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 20:57:13.900 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 20:57:13.901 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 585 ms
+2025-07-27 20:57:14.364 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 27420 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-07-27 20:57:14.364 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-27 20:57:14.858 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f56c2e25-a268-355f-b060-7f142ad5ac29
+2025-07-27 20:57:15.005 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-07-27 20:57:15.013 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-07-27 20:57:15.014 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-27 20:57:15.014 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-27 20:57:15.054 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-27 20:57:15.054 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 663 ms
+2025-07-27 20:57:15.084 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:57:16.143 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:57:16.159 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:57:16.194 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9201"]
+2025-07-27 20:57:16.205 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9201 (http) with context path '/'
+2025-07-27 20:57:16.874 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:9201 register finished
+2025-07-27 20:57:17.172 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:57:17.431 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-07-27 20:57:17.440 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-07-27 20:57:17.889 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:57:17.894 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 6.019 seconds (process running for 6.519)
+2025-07-27 20:57:18.451 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-07-27 20:57:19.113 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-07-27 20:57:19.118 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 6.158 seconds (process running for 6.618)
+2025-07-27 20:57:40.911 [http-nio-8200-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 20:57:40.911 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 20:57:40.912 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-27 20:57:40.937 [http-nio-8200-exec-2] INFO  c.h.o.service.impl.OrderServiceImpl - getProductFromRemoteWithLoadBalance_url=http://service-product/product/2
+2025-07-27 20:57:41.050 [http-nio-9201-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-27 20:57:41.051 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-27 20:57:41.051 [http-nio-9201-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms

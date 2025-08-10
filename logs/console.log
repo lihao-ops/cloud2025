@@ -261,3 +261,63 @@ Error starting ApplicationContext. To display the condition evaluation report re
 2025-08-10 15:48:29.084 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 6.376 seconds (process running for 7.053)
 2025-08-10 15:58:17.774 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
 2025-08-10 15:58:17.781 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-08-10 15:58:28.345 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 26552 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-08-10 15:58:28.346 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-10 15:58:28.374 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=service-order.yml, group=DEFAULT_GROUP] success
+2025-08-10 15:58:28.834 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4298bd41-be96-3059-b130-cac52dec78f2
+2025-08-10 15:58:28.996 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-08-10 15:58:29.006 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-08-10 15:58:29.007 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-10 15:58:29.007 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-10 15:58:29.045 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-10 15:58:29.046 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 671 ms
+2025-08-10 15:58:29.422 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-08-10 15:58:29.430 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-08-10 15:58:29.675 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-08-10 15:58:29.681 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 2.552 seconds (process running for 3.222)
+2025-08-10 15:58:29.690 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=service-order.yml, group=DEFAULT_GROUP
+2025-08-10 15:58:40.982 [http-nio-8200-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 15:58:40.983 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-10 15:58:40.983 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-08-10 15:58:52.872 [nacos.client.config.listener.task-0] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Receive Nacos config change: dataId=service-order.yml, group=DEFAULT_GROUP
+2025-08-10 15:58:52.899 [nacos.client.config.listener.task-0] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=service-order.yml, group=DEFAULT_GROUP] success
+2025-08-10 15:58:52.967 [nacos.client.config.listener.task-0] INFO  o.s.c.e.event.RefreshEventListener - Refresh keys changed: [order.timeout, order.auto-confirm]
+2025-08-10 16:14:44.315 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-08-10 16:14:44.317 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-08-10 16:14:44.321 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-08-10 16:14:44.322 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2025-08-10 16:14:51.213 [main] INFO  com.hli.order.OrderMainApplication - Starting OrderMainApplication using Java 21.0.6 with PID 9560 (E:\项目暂存\cloud2025\services\service-order\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-08-10 16:14:51.214 [main] INFO  com.hli.order.OrderMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-10 16:14:51.247 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=service-order.yml, group=DEFAULT_GROUP] success
+2025-08-10 16:14:51.568 [main] INFO  c.hli.product.ProductMainApplication - Starting ProductMainApplication using Java 21.0.6 with PID 13892 (E:\项目暂存\cloud2025\services\service-product\target\classes started by lihao in E:\项目暂存\cloud2025)
+2025-08-10 16:14:51.569 [main] INFO  c.hli.product.ProductMainApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-10 16:14:51.800 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=78ef9349-936e-323c-913e-4fe225209988
+2025-08-10 16:14:52.042 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8200 (http)
+2025-08-10 16:14:52.053 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2025-08-10 16:14:52.055 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-10 16:14:52.055 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-10 16:14:52.100 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-10 16:14:52.100 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 852 ms
+2025-08-10 16:14:52.103 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9fb78718-27de-3b06-a0f6-df685c77443d
+2025-08-10 16:14:52.290 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
+2025-08-10 16:14:52.300 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2025-08-10 16:14:52.302 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-10 16:14:52.302 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-10 16:14:52.342 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-10 16:14:52.342 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 735 ms
+2025-08-10 16:14:52.511 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2025-08-10 16:14:52.520 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8200 (http) with context path '/'
+2025-08-10 16:14:52.742 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-order 192.168.6.1:8200 register finished
+2025-08-10 16:14:52.747 [main] INFO  com.hli.order.OrderMainApplication - Started OrderMainApplication in 3.122 seconds (process running for 3.862)
+2025-08-10 16:14:52.756 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-10 16:14:52.757 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=service-order.yml, group=DEFAULT_GROUP
+2025-08-10 16:14:52.951 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2025-08-10 16:14:52.965 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
+2025-08-10 16:14:53.573 [main] INFO  c.a.c.n.r.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-product 192.168.6.1:8201 register finished
+2025-08-10 16:14:53.586 [main] INFO  c.hli.product.ProductMainApplication - Started ProductMainApplication in 2.523 seconds (process running for 3.354)
+2025-08-10 16:15:40.286 [nacos.client.config.listener.task-0] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Receive Nacos config change: dataId=service-order.yml, group=DEFAULT_GROUP
+2025-08-10 16:15:40.286 [pool-6-thread-1] INFO  com.hli.order.OrderMainApplication - nacosConfig_conversionInfo_listener_info=order:
+    timeout: 301min
+    auto-confirm: 71d
+2025-08-10 16:15:40.384 [nacos.client.config.listener.task-0] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=service-order.yml, group=DEFAULT_GROUP] success
+2025-08-10 16:15:40.414 [nacos.client.config.listener.task-0] INFO  o.s.c.e.event.RefreshEventListener - Refresh keys changed: [order.timeout, order.auto-confirm]

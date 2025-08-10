@@ -1,14 +1,7 @@
 spring:
   application:
     name: service-order
-  cloud:
-    nacos:
-      #nacos服务端地址及端口
-      server-addr: 127.0.0.1:7000
-      #登录页面账号和密码
-      username: nacos
-      password: nacos
-  config:
-    import: nacos:service-order.yml
+  profiles:
+    active: dev
 server:
   port: 8200

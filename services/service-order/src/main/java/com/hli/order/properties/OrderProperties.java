@@ -23,4 +23,6 @@ public class OrderProperties {
      *     auto-confirm: 71d
      */
     private String autoConfirm;
+
+    private String dbUrl;
 }

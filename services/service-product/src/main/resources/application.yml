@@ -6,5 +6,9 @@ spring:
       server-addr: 127.0.0.1:7000
       username: nacos
       password: nacos
+      #虽然已经引入了nacos-config的依赖，但是暂时不用配置中心配置
+      config:
+        import-check:
+          enabled: false
 server:
   port: 8201

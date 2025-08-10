@@ -1,18 +1,6 @@
-2025-07-27 20:26:57.325 [main] INFO  c.hli.order.service.OrderServiceTest - Starting OrderServiceTest using Java 21.0.6 with PID 17656 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
-2025-07-27 20:26:57.327 [main] INFO  c.hli.order.service.OrderServiceTest - No active profile set, falling back to 1 default profile: "default"
-2025-07-27 20:26:58.060 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ca97f6f5-7043-3d4e-8b0d-605ae20ef5ca
-2025-07-27 20:26:59.223 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-27 20:27:00.250 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-27 20:27:00.582 [main] INFO  c.hli.order.service.OrderServiceTest - Started OrderServiceTest in 4.691 seconds (process running for 5.844)
-2025-07-27 20:43:57.545 [main] INFO  c.hli.order.service.OrderServiceTest - Starting OrderServiceTest using Java 21.0.6 with PID 18648 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
-2025-07-27 20:43:57.546 [main] INFO  c.hli.order.service.OrderServiceTest - No active profile set, falling back to 1 default profile: "default"
-2025-07-27 20:43:58.269 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5bf82800-e57c-37e3-9e3e-186ef7656237
-2025-07-27 20:43:59.410 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-27 20:44:00.445 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-27 20:44:00.877 [main] INFO  c.hli.order.service.OrderServiceTest - Started OrderServiceTest in 4.754 seconds (process running for 6.161)
-2025-07-27 20:45:08.478 [main] INFO  c.hli.order.service.LoadBalancerTest - Starting LoadBalancerTest using Java 21.0.6 with PID 29012 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
-2025-07-27 20:45:08.479 [main] INFO  c.hli.order.service.LoadBalancerTest - No active profile set, falling back to 1 default profile: "default"
-2025-07-27 20:45:09.207 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5bf82800-e57c-37e3-9e3e-186ef7656237
-2025-07-27 20:45:10.353 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-27 20:45:11.382 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-07-27 20:45:11.824 [main] INFO  c.hli.order.service.LoadBalancerTest - Started LoadBalancerTest in 4.78 seconds (process running for 5.91)
+2025-08-10 14:15:17.140 [main] INFO  c.hli.order.service.LoadBalancerTest - Starting LoadBalancerTest using Java 21.0.6 with PID 21572 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-10 14:15:17.142 [main] INFO  c.hli.order.service.LoadBalancerTest - No active profile set, falling back to 1 default profile: "default"
+2025-08-10 14:15:17.868 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5bf82800-e57c-37e3-9e3e-186ef7656237
+2025-08-10 14:15:19.018 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-10 14:15:20.054 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-10 14:15:20.505 [main] INFO  c.hli.order.service.LoadBalancerTest - Started LoadBalancerTest in 4.766 seconds (process running for 5.886)

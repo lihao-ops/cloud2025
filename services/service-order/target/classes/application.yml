@@ -8,5 +8,7 @@ spring:
       #登录页面账号和密码
       username: nacos
       password: nacos
+  config:
+    import: nacos:service-order.yml
 server:
   port: 8200

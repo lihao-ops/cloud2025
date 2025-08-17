@@ -1,6 +1,237 @@
-2025-08-10 14:15:17.140 [main] INFO  c.hli.order.service.LoadBalancerTest - Starting LoadBalancerTest using Java 21.0.6 with PID 21572 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
-2025-08-10 14:15:17.142 [main] INFO  c.hli.order.service.LoadBalancerTest - No active profile set, falling back to 1 default profile: "default"
-2025-08-10 14:15:17.868 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5bf82800-e57c-37e3-9e3e-186ef7656237
-2025-08-10 14:15:19.018 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-08-10 14:15:20.054 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
-2025-08-10 14:15:20.505 [main] INFO  c.hli.order.service.LoadBalancerTest - Started LoadBalancerTest in 4.766 seconds (process running for 5.886)
+2025-08-17 17:33:54.903 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 31436 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:33:54.908 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:33:54.931 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:33:54.931 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:33:55.723 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c19cca21-5706-34d6-acba-dfb8808cc1d4
+2025-08-17 17:33:56.926 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:33:57.964 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:33:58.058 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:33:58.579 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.186 seconds (process running for 7.326)
+2025-08-17 17:33:58.606 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:33:58.611 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:33:58.611 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:33:58.666 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:35:03.646 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 19296 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:35:03.647 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:35:03.670 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:35:03.670 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:35:04.391 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c19cca21-5706-34d6-acba-dfb8808cc1d4
+2025-08-17 17:35:05.592 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:35:06.623 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:35:06.728 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:35:07.225 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 5.967 seconds (process running for 7.085)
+2025-08-17 17:35:07.241 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:35:07.244 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:35:07.245 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:35:07.290 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:37:54.353 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 17372 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:37:54.354 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:37:54.377 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:37:54.377 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:37:55.082 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c19cca21-5706-34d6-acba-dfb8808cc1d4
+2025-08-17 17:37:56.269 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:37:57.322 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:37:57.430 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:37:58.034 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.056 seconds (process running for 7.168)
+2025-08-17 17:37:58.057 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:37:58.060 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:37:58.062 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:37:58.119 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:40:06.944 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 35704 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:40:06.945 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:40:06.968 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:40:06.969 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:40:07.738 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c19cca21-5706-34d6-acba-dfb8808cc1d4
+2025-08-17 17:40:08.958 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:40:09.998 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:40:10.096 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:40:10.633 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.035 seconds (process running for 7.167)
+2025-08-17 17:40:10.648 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:40:10.652 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:40:10.653 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:40:10.687 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:40:56.736 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 27624 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:40:56.737 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:40:56.760 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:40:56.760 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:40:57.499 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c19cca21-5706-34d6-acba-dfb8808cc1d4
+2025-08-17 17:40:58.686 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:40:59.719 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:40:59.822 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:41:00.399 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.031 seconds (process running for 7.159)
+2025-08-17 17:41:00.419 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:41:00.423 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:41:00.424 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:41:00.471 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:42:39.643 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 16156 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:42:39.644 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:42:39.667 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:42:39.667 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:42:40.427 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c19cca21-5706-34d6-acba-dfb8808cc1d4
+2025-08-17 17:42:41.627 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:42:42.655 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:42:42.747 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:42:43.241 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.006 seconds (process running for 7.053)
+2025-08-17 17:42:43.257 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:42:43.260 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:42:43.261 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:42:43.310 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:44:55.896 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 13908 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:44:55.897 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:44:55.924 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:44:55.924 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:44:56.846 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c19cca21-5706-34d6-acba-dfb8808cc1d4
+2025-08-17 17:44:58.064 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:44:59.103 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:44:59.206 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:44:59.711 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.184 seconds (process running for 7.246)
+2025-08-17 17:44:59.734 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:44:59.737 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:44:59.738 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:44:59.773 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:48:07.269 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 27992 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:48:07.270 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:48:07.293 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:48:07.293 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:48:08.061 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1105bf95-1c3d-300f-b19b-614342d1a1b2
+2025-08-17 17:48:09.246 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:48:10.301 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:48:10.400 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:48:10.930 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.028 seconds (process running for 7.049)
+2025-08-17 17:48:10.947 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:48:10.950 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:48:10.951 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:48:10.986 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'http://127.0.0.1' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:48:11.439 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:49:12.916 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 20580 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:49:12.917 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:49:12.945 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:49:12.945 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:49:13.730 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c91861f0-af88-300c-a351-c00ec1a88c42
+2025-08-17 17:49:14.899 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:49:15.941 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:49:16.062 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:49:16.740 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.207 seconds (process running for 7.236)
+2025-08-17 17:49:16.760 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:49:16.763 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:49:16.776 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:49:16.822 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'http://127.0.0.1:8802' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:49:17.338 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:50:25.130 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 5496 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:50:25.131 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:50:25.154 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:50:25.155 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:50:26.131 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9b2cf9af-f1fe-302b-8f37-e0552c8ad224
+2025-08-17 17:50:27.370 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:50:28.433 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:50:28.554 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:50:29.214 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.439 seconds (process running for 7.466)
+2025-08-17 17:50:29.243 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:50:29.248 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:50:29.250 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:50:29.842 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:50:46.062 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 36092 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:50:46.063 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:50:46.087 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:50:46.087 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:50:46.896 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2595c47e-4f5f-3788-bb1d-22425ee06661
+2025-08-17 17:50:48.066 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:50:49.107 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:50:49.220 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:50:49.766 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.172 seconds (process running for 7.225)
+2025-08-17 17:50:49.785 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:50:49.787 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:50:49.788 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:50:49.836 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'http://127.0.0.1:8801' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:50:50.307 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:51:12.817 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 9392 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:51:12.818 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:51:12.840 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:51:12.840 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:51:13.577 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9b2cf9af-f1fe-302b-8f37-e0552c8ad224
+2025-08-17 17:51:14.756 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:51:15.786 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:51:15.900 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:51:16.430 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 5.941 seconds (process running for 6.977)
+2025-08-17 17:51:16.452 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:51:16.456 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:51:16.457 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:51:16.981 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:55:13.765 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 11852 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 17:55:13.766 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 17:55:13.790 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 17:55:13.790 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 17:55:14.546 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1fa2b541-398c-38ef-b99a-75913caa8cbe
+2025-08-17 17:55:15.713 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:55:16.749 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 17:55:16.850 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 17:55:17.383 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 5.953 seconds (process running for 7.004)
+2025-08-17 17:55:17.408 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 17:55:17.412 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 17:55:17.413 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 17:55:18.009 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 18:10:21.800 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 28528 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 18:10:21.801 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 18:10:21.831 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 18:10:21.831 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 18:10:22.671 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=af6c642a-f36d-31b1-a678-871e2c41bd44
+2025-08-17 18:10:23.865 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 18:10:24.899 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 18:10:25.007 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 18:10:25.611 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.241 seconds (process running for 7.34)
+2025-08-17 18:10:25.639 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 18:10:25.643 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 18:10:25.645 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 18:10:26.277 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 18:44:41.243 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 34196 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 18:44:41.244 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 18:44:41.268 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 18:44:41.269 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 18:44:42.101 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=487db032-70f3-3bcd-b12f-7ddaab21dbd8
+2025-08-17 18:44:43.287 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 18:44:44.326 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 18:44:44.457 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 18:44:45.051 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.219 seconds (process running for 7.313)
+2025-08-17 18:44:45.070 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 18:44:45.073 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 18:44:45.074 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 18:44:45.645 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 18:48:58.555 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 17732 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 18:48:58.557 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 18:48:58.589 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 18:48:58.590 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 18:48:59.432 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=487db032-70f3-3bcd-b12f-7ddaab21dbd8
+2025-08-17 18:48:59.882 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 1164 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 18:48:59.884 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 18:48:59.908 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 18:48:59.908 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 18:49:00.652 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 18:49:00.901 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=487db032-70f3-3bcd-b12f-7ddaab21dbd8
+2025-08-17 18:49:01.717 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 18:49:01.863 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 18:49:02.510 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 6.702 seconds (process running for 7.966)
+2025-08-17 18:49:02.536 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 18:49:02.553 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 18:49:02.554 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 18:49:03.156 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 19:02:17.933 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 19:02:18.977 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 19:02:19.072 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 19:02:19.569 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 802.193 seconds (process running for 803.652)
+2025-08-17 19:02:19.586 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 19:02:19.589 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 19:02:19.590 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 19:02:20.094 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 19:03:04.904 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Starting DataCollectorFeignClientTest using Java 21.0.6 with PID 22120 (started by lihao in E:\项目暂存\cloud2025\services\service-order)
+2025-08-17 19:03:04.906 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - The following 1 profile is active: "dev"
+2025-08-17 19:03:04.934 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=common.yml, group=service-order] success
+2025-08-17 19:03:04.934 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=db.yml, group=service-order] success
+2025-08-17 19:03:05.828 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=645d4bda-e8b0-320e-8a1b-35dcaa323df2
+2025-08-17 19:03:13.629 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 19:03:14.657 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-08-17 19:03:14.781 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'service-product' URL not provided. Will try picking an instance via load-balancing.
+2025-08-17 19:03:15.565 [main] INFO  c.h.o.f.DataCollectorFeignClientTest - Started DataCollectorFeignClientTest in 13.167 seconds (process running for 14.448)
+2025-08-17 19:03:15.590 [main] INFO  com.hli.order.OrderMainApplication - start_nacosConfig_conversionInfo_listener!
+2025-08-17 19:03:15.607 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=db.yml, group=service-order
+2025-08-17 19:03:15.608 [main] INFO  c.a.c.n.r.NacosContextRefresher - [Nacos Config] Listening config: dataId=common.yml, group=service-order
+2025-08-17 19:03:16.132 [main] INFO  o.s.c.o.FeignClientFactoryBean - For 'quant-data-collector' URL not provided. Will try picking an instance via load-balancing.

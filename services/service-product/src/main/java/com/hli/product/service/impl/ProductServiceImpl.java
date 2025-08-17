@@ -5,6 +5,7 @@ import com.hli.product.vo.ProductVO;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author hli
@@ -27,6 +28,11 @@ public class ProductServiceImpl implements ProductService {
         productVO.setPrice(new BigDecimal("10.00"));
         productVO.setName("牛奶" + productId);
         productVO.setNum(3);
+        try {
+            TimeUnit.SECONDS.sleep(100);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         return productVO;
     }
 }

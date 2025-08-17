@@ -1,5 +1,7 @@
 package com.hli.order.config;
 
+import feign.Logger;
+import feign.Retryer;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,5 +19,20 @@ public class BeanConfig {
     @Bean
     public RestTemplate getRestTemplate() {
         return new RestTemplate();
+    }
+
+    @Bean
+    Logger.Level feignLoggerLevel() {
+        return Logger.Level.FULL;
+    }
+
+
+    /**
+     * openfeign重试器
+     */
+    @Bean
+    Retryer feignRetryer() {
+        //默认重试间隔100ms,最大间隔1000ms,最多重试5次
+        return new Retryer.Default(100, 1000, 5);
     }
 }

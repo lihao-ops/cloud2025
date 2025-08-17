@@ -1,5 +1,6 @@
 package com.hli.order.service.impl;
 
+import com.hli.order.feign.ProductFeignClient;
 import com.hli.order.service.OrderService;
 import com.hli.order.vo.OrderVO;
 import com.hli.product.vo.ProductVO;
@@ -33,6 +34,9 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private LoadBalancerClient loadBalancerClient;
 
+    @Autowired
+    private ProductFeignClient productFeignClient;
+
     /**
      * 创建订单
      *
@@ -42,7 +46,10 @@ public class OrderServiceImpl implements OrderService {
      */
     @Override
     public OrderVO createOrder(Long productId, Long userId) {
-        ProductVO productVO = getProductFromRemoteWithLoadBalanceAnnotation(productId);
+//        ProductVO productVO = getProductFromRemoteWithLoadBalanceAnnotation(productId);
+        //使用Feign完成远程调用
+        ProductVO productVO = productFeignClient.getProductById(productId, userId);
+
         OrderVO orderVO = new OrderVO();
         orderVO.setId(2L);
         //(远程查询)总金额(商品单价 * 数量)

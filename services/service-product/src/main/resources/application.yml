@@ -2,6 +2,11 @@ spring:
   application:
     name: service-product
   cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:7003
+      #默认懒加载机制,也就是说有第一次的流量访问之后才会,这里显示指定直接连接就显示在控制台
+      eager: true
     nacos:
       server-addr: 127.0.0.1:7000
       username: nacos

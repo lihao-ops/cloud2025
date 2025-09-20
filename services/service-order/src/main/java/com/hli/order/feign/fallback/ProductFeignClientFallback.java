@@ -20,7 +20,7 @@ public class ProductFeignClientFallback implements ProductFeignClient {
         ProductVO productVO = new ProductVO();
         productVO.setName("商品不存在");
         productVO.setPrice(new BigDecimal(0));
-        productVO.setNum(1);
+        productVO.setNum(0);
         productVO.setId(id);
         return productVO;
     }

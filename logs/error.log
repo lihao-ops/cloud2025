@@ -160,3 +160,95 @@ Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,
 	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:158)
 	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:75)
 	... 26 common frames omitted
+2025-09-17 20:40:27.135 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8201 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8201 or configure this application to listen on another port.
+
+2025-09-17 20:40:38.583 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8200 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8200 or configure this application to listen on another port.
+
+2025-09-17 20:40:54.604 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8201 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8201 or configure this application to listen on another port.
+
+2025-09-17 20:41:15.599 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8201 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8201 or configure this application to listen on another port.
+
+2025-09-17 20:49:14.561 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8201 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8201 or configure this application to listen on another port.
+
+2025-09-18 20:59:42.798 [http-nio-8200-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 20:59:46.810 [http-nio-8200-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 21:00:09.617 [http-nio-8200-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 21:00:10.480 [http-nio-8200-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 21:00:10.650 [http-nio-8200-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 21:00:10.833 [http-nio-8200-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 21:14:31.955 [http-nio-8200-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 21:14:32.121 [http-nio-8200-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 21:14:32.254 [http-nio-8200-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 21:14:32.384 [http-nio-8200-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null
+2025-09-18 21:14:32.893 [http-nio-8200-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.reflect.UndeclaredThrowableException] with root cause
+com.alibaba.csp.sentinel.slots.block.flow.FlowException: null

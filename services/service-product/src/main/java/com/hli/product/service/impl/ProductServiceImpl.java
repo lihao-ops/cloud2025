@@ -1,5 +1,7 @@
 package com.hli.product.service.impl;
 
+import com.alibaba.csp.sentinel.SphU;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.hli.product.service.ProductService;
 import com.hli.product.vo.ProductVO;
 import org.springframework.stereotype.Service;

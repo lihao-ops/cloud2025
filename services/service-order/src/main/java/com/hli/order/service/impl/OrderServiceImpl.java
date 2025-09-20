@@ -1,5 +1,7 @@
 package com.hli.order.service.impl;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.hli.order.feign.ProductFeignClient;
 import com.hli.order.service.OrderService;
 import com.hli.order.vo.OrderVO;
@@ -44,12 +46,12 @@ public class OrderServiceImpl implements OrderService {
      * @param userId    用户id
      * @return 订单信息
      */
+    @SentinelResource(value = "createOrder", blockHandler = "createOrderFallback")
     @Override
     public OrderVO createOrder(Long productId, Long userId) {
 //        ProductVO productVO = getProductFromRemoteWithLoadBalanceAnnotation(productId);
         //使用Feign完成远程调用
         ProductVO productVO = productFeignClient.getProductById(productId, userId);
-
         OrderVO orderVO = new OrderVO();
         orderVO.setId(2L);
         //(远程查询)总金额(商品单价 * 数量)
@@ -60,6 +62,19 @@ public class OrderServiceImpl implements OrderService {
         orderVO.setAddress("万得大厦");
         //(远程查询)商品列表
         orderVO.setProductList(Arrays.asList(productVO));
+        return orderVO;
+    }
+
+    /**
+     * 被@SentinelResource(value = "createOrder"指定的兜底回调
+     */
+    public OrderVO createOrderFallback(Long productId, Long userId, BlockException e) {
+        OrderVO orderVO = new OrderVO();
+        orderVO.setId(0L);
+        orderVO.setTotalAmount(new BigDecimal(0));
+        orderVO.setUserId(userId);
+        orderVO.setNickname("未知用户");
+        orderVO.setAddress("异常信息: " + e.getClass());
         return orderVO;
     }
 

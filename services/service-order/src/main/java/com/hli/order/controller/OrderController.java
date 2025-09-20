@@ -40,4 +40,23 @@ public class OrderController {
                                @RequestParam("userId") Long userId) {
         return orderService.createOrder(productId, userId);
     }
+
+    @GetMapping("seckill")
+    public OrderVO seckill(@RequestParam("productId") Long productId,
+                               @RequestParam("userId") Long userId) {
+        OrderVO order = orderService.createOrder(productId, userId);
+        order.setId(Long.MAX_VALUE);
+        return order;
+    }
+
+    @GetMapping("write")
+    public String writeDB(){
+        return "writeDB";
+    }
+
+    @GetMapping("read")
+    public String readDB(){
+        return "readDB";
+    }
+
 }
